@@ -75,6 +75,7 @@ class PatientController extends Controller
     }
     public function addMeasurement(Request $request)
     {
+        dd($request);
         $measurement=new measurement;
         $measurement->patient_id=$request->patient_id;
         $measurement->bpm=$request->bpm;
