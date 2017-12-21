@@ -21,4 +21,4 @@ Route::get('/home', 'HomeController@index');
 Route::post('/patientRegister', 'PatientController@create');
 Route::get('/registerPatient', 'PatientController@show');
 
-Route::get('/api/addNew', 'PatientController@addMeasurement');
+Route::post('/api/addNew', 'PatientController@addMeasurement');
