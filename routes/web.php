@@ -22,3 +22,4 @@ Route::post('/patientRegister', 'PatientController@create');
 Route::get('/registerPatient', 'PatientController@show');
 
 Route::post('/api/addNew', 'PatientController@addMeasurement');
+//gg
